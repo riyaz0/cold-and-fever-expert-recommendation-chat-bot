@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+         "context_set": ""
+        },
+        {"tag": "symptoms1",
+         "patterns": ["running nose", "nose is blocked", "feeling cold","high temperature","feeling hot"],
+         "responses": ["You are having a common cold ", "Just a flu"],
+         "context_set": ""
+        },
+	{"tag": "symptoms2",
+         "patterns": ["feeling hot", "temperature is above 99 degree"],
+         "responses": ["You are having fever", "just a small fever if it gets worse after 2 days contact doctor"],
+         "context_set": ""
+        },
+        {"tag": "treatment1",
+         "patterns": ["need prescription of medicines", "what medicines can i use", "what treatment must i use","anymore"],
+         "responses": ["for cold use cheston 650 one tablet morning and evening after food for 1 week ","for fever use dolo650 morning  ,evening 1 tablet each after food",for both cold and fever cheston cold and paracetomal 1 tablet every morning evening after food"],
+         "context_set": ""
+        }
+   ]
+}
